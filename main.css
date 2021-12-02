@@ -5,7 +5,6 @@
   margin: 0;
 }
 .bandeau {
-  align-items: center;
   display: flex;
   background-image: url(source/BG_hibou.png);
   font-family: "Spartan", sans-serif;
@@ -46,23 +45,23 @@
 }
 
 .ligne1 {
-    position: relative;
-    bottom: 0.8em;
-    flex: 1;
-    border-bottom: 0.1rem solid white;
-  }
-  
-  .ligne2 {
-    position: relative;
-    bottom: 0.8em;
-    flex: 1;
-    border-bottom: 0.1rem solid white;
-  }
-  
+  position: relative;
+  bottom: 0.8em;
+  flex: 1;
+  border-bottom: 0.1rem solid white;
+}
+
+.ligne2 {
+  position: relative;
+  bottom: 0.8em;
+  flex: 1;
+  border-bottom: 0.1rem solid white;
+}
+
 .petit-titre {
   flex: 1;
   position: relative;
-  top : 0.2rem;
+  top: 0.2rem;
 }
 
 .block {
