@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+.bandeau {
+  display: flex;
+  background-image: url(source/BG_hibou.png);
+  font-family: "Spartan", sans-serif;
+  background-size: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  height: 45vh;
+  flex-direction: column;
+  text-align: center;
+  color: white;
+}
+
+.bandeau h1 {
+  padding-top: 1rem;
+  font-weight: 700;
+  justify-content: center;
+  font-size: 1em;
+}
+
+.bandeau h2 {
+  border: 0.3em solid white;
+  font-weight: 400;
+  font-size: 0.4rem;
+  padding: 0.4rem;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+}
+
+.bandeau h3 {
+  flex: 1;
+  font-weight: 400;
+  font-size: 0.3rem;
+}
+.sous-titre {
+  display: flex;
+}
+
+.ligne1 {
+    position: relative;
+    bottom: 0.8em;
+    flex: 1;
+    border-bottom: 0.1rem solid white;
+  }
+  
+  .ligne2 {
+    position: relative;
+    bottom: 0.8em;
+    flex: 1;
+    border-bottom: 0.1rem solid white;
+  }
+  
+.petit-titre {
+  flex: 1;
+  position: relative;
+  top : 0.2rem;
+}
+
+.block {
+  display: block;
+}
